@@ -14,6 +14,87 @@ main > section{
     margin: auto;
 }
 
+/* ============================= BANNER SUPERIOR ========================= */
+
+.banner-higher{
+    margin: auto;    
+    height: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.banner-higher-left{    
+    height: 430px; 
+    left: 0px; 
+    width: 443.84px;    
+}
+
+.banner-higher-left-children{
+    height: 380px; 
+    width: 539px; 
+    left: 0px; 
+    top: 50px; 
+}
+
+.banner-higher-right {       
+    height: 550px;
+    left: 458px; 
+    width: 550px; 
+}
+
+.banner-higher-right-children{
+    height: 550px; 
+    left: 0px; 
+    top: 0px; 
+}
+
+.banner-higher-right-children img{
+    width: 100%; 
+    height: 100%;
+}
+
+.title{    
+    margin-top: 0px; 
+    height: 144px;
+
+    color: rgb(67, 96, 105);
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content{
+    margin-top: 30px; 
+    width: 100%;
+    height: 90px; 
+    left: 0px;
+    font-size: 15px;
+    color: rgb(127, 127, 127);
+    line-height: 1.5;
+}
+
+.title-text{
+    color: #00B0A0;
+}
+
+.btn-banner-1{
+    margin-top: 65px;
+    height: 50px;
+    width: 205px;
+    background: none rgb(0, 176, 160);
+    border: none;    
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
+
+/* =========================== BANNER INFERIOR==================================== */
+
 .banner-inferior {
     display: flex;
     flex-wrap: nowrap;
@@ -22,13 +103,17 @@ main > section{
     height: 550px;
     padding-top: 50px;
 }
-
-.div-left img{
-    display: block;
-    margin-top: 50px;
+.banner-inferior-left {
+    margin-right: 50px;
 }
 
-.div-right h2{
+.banner-inferior-left img{
+    display: block;
+    margin-top: 50px;
+    width: 550px;
+}
+
+.banner-inferior-right h2{
     font-size: 36px;
     font-weight: 600;
     color: rgb(67, 96, 105);
@@ -37,14 +122,14 @@ main > section{
     letter-spacing: 1.5px;
 }
 
-.div-right p{
+.banner-inferior-right p{
     padding-bottom: 0px;
     font-size: 15px;
     color: rgb(127, 127, 127);
     line-height: 1.5;
 }
 
-.div-right button{
+.banner-inferior-right button{
     height: 50px;
     width: 145px;
     margin-top: 15px;
@@ -60,7 +145,7 @@ main > section{
 }
 
 
-/* ========================================= CATEGORIES ======================================================== */
+/* ================================== CATEGORIES ===================================== */
 
 .categories{
     padding-top: 50px;
