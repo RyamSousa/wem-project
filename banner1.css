@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{    
+    box-sizing: border-box;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+    background: none rgba(252, 252, 252, 0.9); 
+}
+
+p{
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgb(127, 127, 127);
+    line-height: 1.5;
+}
+
+.banner-higher{
+    max-width: 80%;
+    margin: auto;    
+    height: 550px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.div-left{    
+    height: 430px; 
+    left: 0px; 
+    width: 443.84px;    
+}
+
+.div-left-children{
+    height: 380px; 
+    width: 539px; 
+    left: 0px; 
+    top: 50px; 
+}
+
+.div-right {       
+    height: 550px;
+    left: 458px; 
+    width: 550px; 
+}
+
+.div-right-children{
+    height: 550px; 
+    left: 0px; 
+    top: 0px; 
+}
+
+img{
+    width: 100%; 
+    height: 100%;
+}
+
+.title{    
+    margin-top: 0px; 
+    height: 144px;
+
+    color: rgb(67, 96, 105);
+    font-family: Roboto;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.content{
+    margin-top: 30px; 
+    width: 100%;
+    height: 90px; 
+    left: 0px;
+}
+
+.title-text{
+    color: #00B0A0;
+}
+
+.btn-banner-1{
+    margin-top: 65px;
+    height: 50px;
+    width: 205px;
+    background: none rgb(0, 176, 160);
+    border: none;    
+    font-family: Roboto;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 100px;
+}
