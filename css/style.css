@@ -63,6 +63,7 @@ body{
     border: 0;
     vertical-align: baseline;
     box-sizing: inherit;
+    color: rgb(127, 127, 127);
 }
 
 .color-text{
@@ -496,3 +497,78 @@ body{
 }
 
 /* ================================== CUSTOMERS ===================================== */
+
+/* ==================================== FOOTER ======================================= */
+
+.footer{
+    display: flex;
+    align-items: center;    
+    margin-top: 0px;
+    height: 269.391px;
+    left: 50px;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.text-left{    
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+}
+.text-footer{
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(127, 127, 127);
+    line-height: 1.4; 
+    border-radius: 0px;
+}
+.title-header{
+    font-weight: 600;
+    font-family: Roboto; 
+    font-size: 24px; 
+    margin-bottom: 10px;
+    color: rgb(127, 127, 127);
+}
+
+.text-right{
+    left: 798px;
+    width: 200px;
+
+    font-family: Roboto; 
+    font-size: 14px; 
+    color: rgb(127, 127, 127);
+    border-radius: 0px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    height: 40px;
+}
+
+.social-media > .fa{
+    font-size: 30px;
+}
+
+.text-social{    
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-social{
+    background: none; 
+    border: none; 
+    color: rgb(191, 191, 191); 
+    border-radius: 4px;
+    height: 30px;
+    left: 0px;
+    width: 30px;
+    height: 25px;    
+}
