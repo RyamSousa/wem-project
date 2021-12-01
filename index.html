@@ -335,8 +335,8 @@
 
                 btnActive.forEach(button => {
                     button.addEventListener('click', function() {
-                        btnActive.forEach(btn => btn.classList.remove('active'));
-                        this.classList.add('active');
+                        btnActive.forEach(  btn => btn.classList.remove('active'));
+
                         let content = this.nextElementSibling;
                         let icons = this.children;
 
@@ -344,8 +344,7 @@
 
                         if (content.style.maxHeight) {
                             content.style.maxHeight = null;
-                            this.classList.remove('active')
-                            icons[1].classList.replace('fa-chevron-up', 'fa-chevron-down')
+                            icons[1].classList.replace('fa-chevron-up', 'fa-chevron-down') 
                         } else {
                             content.style.maxHeight = content.scrollHeight + "px";
                         }       
