@@ -278,6 +278,135 @@ body{
     color: rgb(56, 79, 86);
 }
 
+/* ============================== PRODUCTS ====================================== */
+
+.products{    
+    margin-top: 0px;
+    height: 960px;
+    width: 100%;
+    left: 0px;
+    box-sizing: border-box;
+    z-index: 10;
+    height: 500px;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+}
+
+.container-products{        
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.product-title{    
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(67, 96, 105);
+    line-height: 1.2;
+    padding-top: 10.5px;
+}
+
+.img-product{
+    height: 230px;
+    width: 250px;
+}
+
+.btn-like > .fa{
+    font-size: 100px;
+}
+
+.btn-like{
+    position: absolute;
+    box-sizing: border-box;
+    height: 35px;
+    width: 35px;
+    overflow: visible;
+    word-break: break-word;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: none !important;
+    border: none;
+    line-height: 1.2;
+    padding-top: 5.5px;    
+}
+
+.container-cards-products{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 370px;
+    width: 100%;
+    box-shadow: rgb(170 170 170 / 0%) 0px 0px 4px 0px;    
+}
+
+.card-product{
+    height: 325px;
+    left: 5px;
+    width: 249px;
+}
+
+.produc-informations{
+    display: flex;
+    justify-content: space-between;
+    height: 95px;
+}
+
+.left-info{
+    margin: 0;
+    height: 95px;
+}
+
+.right-info{
+    display: flex;
+    align-items: flex-end;
+}
+
+.name-product{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(67, 96, 105);
+    padding-top: 2.5px;
+    border-radius: 0px;
+}
+
+.link-product{
+    font-family: Roboto;
+    font-size: 12px;
+    color: rgb(0, 176, 160);    
+    border-radius: 0px;
+    cursor: pointer;    
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.price-product{
+    word-break: break-word;
+    font-family: Roboto;
+    font-size: 14px;
+    color: rgb(67, 96, 105);
+}
+
+.btn-car{
+    font-family: Roboto;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    height: 35px;
+    background-color: rgb(0, 176, 160) !important;
+    border-radius: 100px;
+    width: 105px;
+    border: none;
+}
+
 /* =========================== BANNER INFERIOR==================================== */
 
 .banner-inferior {
