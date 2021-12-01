@@ -202,6 +202,76 @@ body{
     border-radius: 100px;
 }
 
+/* ============================= CARDS SERVICES ========================= */
+
+.services{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 60px;     
+    width: 1098px;
+    height: 255px;
+    left: 0px;
+    box-sizing: border-box;
+    z-index: 6;    
+    top: 0px;
+    border-radius: 0px;
+    font-size: 100%;
+    vertical-align: baseline;    
+}
+
+.container-services{   
+    display: flex;     
+    align-items: center;
+    justify-content: space-evenly;
+    left: 50px;
+    height: 160px;    
+    width: 100%;
+}
+
+.card-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 125px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgb(170 170 170 / 15%) 2px 2px 4px 0px;
+}
+
+.content-services{
+    height: 105px;
+    width: 286px;
+    display: flex;    
+    justify-content: space-between;
+}
+
+.button-service{
+    height: 25px; 
+    width: 25px;
+    background: none; 
+    border: none; 
+    cursor: inherit; 
+    color: rgb(0, 176, 160); 
+    font-size: 25px; 
+    border-radius: 4px;    
+}
+
+.text-services{
+    margin-left: 30px;
+    width: 100%;
+    color: rgb(56, 79, 86);
+}
+
+.title-service{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
+    color: rgb(56, 79, 86);
+}
+
 /* =========================== BANNER INFERIOR==================================== */
 
 .banner-inferior {
