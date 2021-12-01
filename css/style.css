@@ -235,7 +235,7 @@ body{
     align-items: center;
     margin: auto;
     height: 125px;
-    width: 320px;
+    width: 340px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: rgb(170 170 170 / 15%) 2px 2px 4px 0px;
@@ -243,7 +243,6 @@ body{
 
 .content-services{
     height: 105px;
-    width: 286px;
     display: flex;    
     justify-content: space-between;
 }
@@ -263,6 +262,13 @@ body{
     margin-left: 30px;
     width: 100%;
     color: rgb(56, 79, 86);
+}
+
+.text-services p{
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    line-height: 1.5;
+
 }
 
 .title-service{
@@ -330,7 +336,7 @@ body{
     padding: 50px 0px;
 }
 
-.categories h2{
+.categories h2, .customers h2, .questions-right h2{
     font-size: 25px;
     font-weight: 500;
     color: rgb(67, 96, 105);
@@ -495,4 +501,81 @@ body{
     transition: border-color 700ms ease 0s;
 }
 
-/* ================================== CUSTOMERS ===================================== */
+/* ================================== QUESTIONS ===================================== */
+
+.questions {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    margin-top: 55px;
+    height: 550px;
+    padding-top: 50px;
+}
+.questions-left {
+    margin-right: 50px;
+}
+
+.questions-left img{
+    height: 400px;
+    width: 340px;
+    border-radius: 0px;
+}
+
+.questions-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fcfcfc;
+}
+
+.questions-buttons > .fa{
+    font-size: 10px;
+}
+
+.accordion{
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(127, 127, 127);
+    line-height: 1.4;
+    padding-top: 15.5px;
+    transition: color 200ms ease 0s;
+    width: 620px;
+    border: none;
+    text-align: left;
+    height: 50px;
+  }
+
+.accordion span{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-top: 15.5px;
+    text-align: right;
+    height: 50px;
+  }
+  
+  .active, .accordion:hover, .questions-buttons:hover{
+    color: rgb(0, 176, 160);
+  }
+  
+  .accordion-content {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion-content p{
+    font-size: 14px;
+    color: rgb(127, 127, 127);
+    line-height: 1.7;
+    height: 100%;
+    width: 640px;
+
+  }
+
