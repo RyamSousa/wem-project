@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 * {
     font-family: 'Roboto', sans-serif;
@@ -14,10 +16,107 @@ main > section{
     margin: auto;
 }
 
+/* ================================= HEADER ============================== */
+
+.header{
+    position: fixed;  
+    height: 60px;        
+    top: 0px; 
+    left: 0px; 
+    width: 100%; 
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgb(170 170 170 / 30%) 2px 2px 4px 0px;
+}
+
+.content-header{       
+    display: flex;
+    margin: 0 auto;    
+    padding: 0;
+    justify-content: space-between;    
+    width: 82%;
+}
+
+.content-text{
+    padding-top: 15px;
+    width: 120px;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(67, 96, 105);
+}
+
+.title-header{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+
+.color-text{
+    color: #00B0A0;
+}
+
+.content-options{
+    padding-top: 9px;
+    width: 140px;
+    vertical-align: baseline;
+    box-sizing: inherit;
+}
+
+.options-header{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: baseline;
+    align-items: center;
+
+}
+.drop{
+    display: flex;
+    vertical-align: baseline;
+}
+
+.img-perfil{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.fa{
+    font-size: 23px;
+    background: rgb(255, 255, 255);
+    border-radius: 100px;
+    transition: background 200ms ease 0s;
+    cursor: pointer
+}
+.fafa{
+    height: 25px;
+    width: 26px;    
+    border-radius: 50%;
+}
+.fafa:hover, .material-icons:hover{
+    color: #00B0A0;
+}
+.btn-options{     
+    height: 26px; 
+    width: 26px; 
+    left: 0px; 
+    margin-top: 10px; 
+    text-align: center; 
+    background: none; 
+    border: none; 
+    cursor: inherit; 
+    color: rgb(69, 69, 69); 
+    font-size: 26px;
+    border-radius: 4px;
+}
+
 /* ============================= BANNER SUPERIOR ========================= */
 
 .banner-higher{
-    margin: auto;    
+    margin: 0 auto;    
+    padding-top: 80px;
     height: 550px;
     display: flex;
     flex-wrap: nowrap;
